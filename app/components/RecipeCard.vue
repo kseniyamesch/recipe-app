@@ -27,7 +27,7 @@
                         </svg>
                         {{ recipe.servings }}</span>
                 </p>
-                <button class="uppercase p-2 pl-3 pr-3 rounded-[24px] border border-textDark">View recipe</button>
+                <NuxtLink :to="`/recipes/${recipe.id}/`" class="uppercase p-2 pl-3 pr-3 rounded-[24px] border border-textDark">View recipe</NuxtLink>
             </div>
         </div>
 
